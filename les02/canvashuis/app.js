@@ -9,45 +9,45 @@ class App
         g.fillRect(0,0,10,10);
         g.beginPath()
         g.fillStyle = "Red";
-        g.moveTo(30,10);
-        g.lineTo(70,20);
-        g.lineTo(60,40);
-        g.lineTo(20,30);
+        g.moveTo(300,100);
+        g.lineTo(700,200);
+        g.lineTo(600,400);
+        g.lineTo(200,300);
         g.closePath();
         g.stroke();
         g.fill();
         g.beginPath()
         g.fillStyle = "Grey";
-        g.moveTo(70,20);
-        g.lineTo(80,30);
-        g.lineTo(60,40);
+        g.moveTo(700,200);
+        g.lineTo(800,300);
+        g.lineTo(600,400);
         g.closePath();
         g.stroke();
         g.fill();
         g.beginPath()
         g.fillStyle = "Grey";
-        g.moveTo(80,30);
-        g.lineTo(80,50);
-        g.lineTo(60,60);
-        g.lineTo(60,40);
+        g.moveTo(800,300);
+        g.lineTo(800,500);
+        g.lineTo(600,600);
+        g.lineTo(600,400);
         g.closePath();
         g.stroke();
         g.fill();
         g.beginPath()
         g.fillStyle = "Grey";
-        g.moveTo(60,40);
-        g.lineTo(60,60);
-        g.lineTo(20,50);
-        g.lineTo(20,30)
+        g.moveTo(600,400);
+        g.lineTo(600,600);
+        g.lineTo(200,500);
+        g.lineTo(200,300)
         g.closePath();
         g.stroke();
         g.fill();
         g.beginPath()
         g.fillStyle = "White";
-        g.moveTo(40,35);
-        g.lineTo(40,40);
-        g.lineTo(40,50);
-        g.lineTo(40,35);
+        g.moveTo(350,350);
+        g.lineTo(450,450);
+        g.lineTo(450,550);
+        g.lineTo(400,350);
         g.closePath();
         g.stroke();
         g.fill();
