@@ -308,8 +308,8 @@ class App{
         g.beginPath();
         g.fillStyle = "#ff6600";
         g.moveTo(310,900);
+        g.lineTo(310,890);
         g.lineTo(340,900);
-        g.lineTo(340,890);
         g.closePath();
         g.stroke();
         g.fill();
