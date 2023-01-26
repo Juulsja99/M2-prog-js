@@ -6,6 +6,7 @@
 
 class App{
     
+    
     runApplication(){
         let canvas = document.getElementById("canvasID");
         let g = canvas.getContext("2d");
@@ -315,7 +316,7 @@ class App{
         g.fill();
         //.oog1
         g.beginPath();
-        g.fillStyle = "Black"
+        g.fillStyle = "Black";
         g.arc(310,880,3,0,Math.PI*2)
         g.closePath();
         g.stroke();
@@ -328,20 +329,19 @@ class App{
         g.stroke();
         g.fill();
 
-
-
-
-
-
-
-
-
-
-
+        for(let i =0; i <= 40; i++)
+        {
+            g.beginPath();
+            let x = Math.random() * canvas.width;
+            let y = Math.random() * canvas.height;
+            g.fillStyle = "White"
+            g.arc(x,y,3,0,Math.PI*2, false)
+            g.closePath();
+            g.stroke();
+            g.fill();
+        }
 
     }
-
 }
 let app = new App();
 app.runApplication();
-
